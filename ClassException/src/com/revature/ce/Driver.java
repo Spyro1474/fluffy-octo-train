@@ -6,14 +6,10 @@ public class Driver {
 		try {
 			int x;
 			
-			x = 5;
+			x = 4;
 			
-		myException ME = new myException(5);
-		
-		
+		myException ME = new myException(x);
 		 
-			
-			System.out.println("x cannot be anything but 5");
 			
 		}
 		catch (Exception e) {

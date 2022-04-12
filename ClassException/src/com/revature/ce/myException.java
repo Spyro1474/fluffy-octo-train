@@ -4,19 +4,12 @@ public class myException extends Exception {
 	
 	public myException(int x) {				
 		super();
-		
-		
-		
 		if (x > 4) {
 			throw new ArithmeticException("x cannot be greater than 4");
 				
 			}			
 			else
-			System.out.println("x is correct");
-			
-			
-		
-			
+			System.out.println("x cannot be less than than 4");	
 
 	}
 	
