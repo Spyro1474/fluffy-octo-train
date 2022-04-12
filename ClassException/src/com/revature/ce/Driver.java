@@ -13,7 +13,7 @@ public class Driver {
 		
 		 
 			
-			System.out.println("x cannot be greater than ");
+			System.out.println("x cannot be anything but 5");
 			
 		}
 		catch (Exception e) {

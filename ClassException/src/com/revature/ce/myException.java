@@ -4,7 +4,6 @@ public class myException extends Exception {
 	
 	public myException(int x) {				
 		super();
-		System.out.println("hi");
 		
 		
 		
